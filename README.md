@@ -64,12 +64,6 @@ We welcome bug fixes, UX improvements, or new ideas!
 
 ---
 
-## 🧾 License
-
-MIT License – free to use, modify, and distribute.
-
----
-
 ## 📬 Contact
 
 Got a question, issue, or feature request?
