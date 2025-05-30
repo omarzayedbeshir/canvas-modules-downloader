@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Canvas File Downloader",
+  "version": "1.1",
+  "description": "Adds a button to download all module files from any Canvas site.",
+  "permissions": ["scripting", "activeTab"],
+  "action": {
+    "default_title": "Canvas File Downloader"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.instructure.com/courses/*/modules*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
